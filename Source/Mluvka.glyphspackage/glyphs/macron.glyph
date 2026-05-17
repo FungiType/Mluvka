@@ -1,0 +1,44 @@
+{
+glyphname = macron;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = macroncomb;
+}
+);
+width = 470;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "F166CE87-47FF-4D07-ABA2-95952D7CE9B4";
+name = Italic;
+width = 427;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "9EB01E33-2E46-4588-B5D4-A603C7FDA105";
+name = "Extralight Italic";
+width = 422;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "A8B56416-2F8E-4888-8E4A-27EE12FDB44C";
+name = "Black Italic";
+width = 445;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = macroncomb;
+}
+);
+width = 433;
+}
+);
+unicode = 175;
+}

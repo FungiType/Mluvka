@@ -1,0 +1,38 @@
+{
+glyphname = divisionslash;
+kernLeft = fraction;
+kernRight = fraction;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(276,-60,l),
+(603,805,l),
+(403,805,l),
+(76,-60,l)
+);
+}
+);
+width = 679;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(93,-60,l),
+(431,805,l),
+(376,805,l),
+(38,-60,l)
+);
+}
+);
+width = 469;
+}
+);
+unicode = 8725;
+}

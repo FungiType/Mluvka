@@ -1,0 +1,118 @@
+{
+export = 0;
+glyphname = slashshortcomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (221,360);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(395,368,l),
+(395,543,l),
+(48,353,l),
+(48,178,l)
+);
+}
+);
+width = 444;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (185,372);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "2A267101-8639-4A08-9854-722AB7781670";
+name = Italic;
+shapes = (
+{
+closed = 1;
+nodes = (
+(324,416,l),
+(340,489,l),
+(46,328,l),
+(30,255,l)
+);
+}
+);
+width = 322;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (160,381);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "C1C9CD94-6C71-41A6-B018-8B36CF7D184F";
+name = "Extralight Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(274,431,l),
+(283,474,l),
+(47,330,l),
+(37,287,l)
+);
+}
+);
+width = 267;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (208,364);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "63FFB536-1DA0-4499-96B6-B48E2BBCCBCF";
+name = "Black Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(367,381,l),
+(397,525,l),
+(49,347,l),
+(19,203,l)
+);
+}
+);
+width = 376;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (139,375);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(242,419,l),
+(242,474,l),
+(36,330,l),
+(36,275,l)
+);
+}
+);
+width = 277;
+}
+);
+unicode = 823;
+}

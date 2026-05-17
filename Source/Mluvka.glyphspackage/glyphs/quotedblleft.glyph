@@ -1,0 +1,42 @@
+{
+glyphname = quotedblleft;
+kernLeft = quoteleft;
+kernRight = quoteleft;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+angle = 180;
+pos = (515,614);
+ref = comma;
+scale = (0.9,0.9);
+},
+{
+angle = 180;
+pos = (265,615);
+ref = comma;
+scale = (0.9,0.9);
+}
+);
+width = 518;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+angle = 180;
+pos = (284,643);
+ref = comma;
+},
+{
+angle = 180;
+pos = (154,643);
+ref = comma;
+}
+);
+width = 284;
+}
+);
+unicode = 8220;
+}

@@ -1,0 +1,40 @@
+{
+glyphname = Lslash;
+kernLeft = H;
+kernRight = L;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+pos = (64,0);
+ref = L;
+},
+{
+alignment = -1;
+pos = (-10,20);
+ref = slashshortcomb.case;
+}
+);
+width = 615;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+pos = (68,0);
+ref = L;
+},
+{
+alignment = -1;
+pos = (23,26);
+ref = slashshortcomb.case;
+}
+);
+width = 601;
+}
+);
+unicode = 321;
+}

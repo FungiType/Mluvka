@@ -1,0 +1,36 @@
+{
+export = 0;
+glyphname = _dollar.bar;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(388,-100,l),
+(388,845,l),
+(282,845,l),
+(282,-100,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(351,-100,l),
+(351,845,l),
+(306,845,l),
+(306,-100,l)
+);
+}
+);
+width = 600;
+}
+);
+}

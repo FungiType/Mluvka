@@ -1,0 +1,44 @@
+{
+glyphname = breve;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = brevecomb;
+}
+);
+width = 571;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "42EB5623-BC67-4799-89A9-C288871FBE40";
+name = Italic;
+width = 476;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "5B66DB4D-CBBE-452D-9A17-3544AE73209E";
+name = "Extralight Italic";
+width = 446;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "E9D20F95-80AE-4D8D-AB84-0A950B94EE66";
+name = "Black Italic";
+width = 538;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = brevecomb;
+}
+);
+width = 446;
+}
+);
+unicode = 728;
+}

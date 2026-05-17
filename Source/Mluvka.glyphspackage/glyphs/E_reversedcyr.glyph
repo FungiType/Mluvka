@@ -1,0 +1,49 @@
+{
+export = 0;
+glyphname = Ereversedcyr;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(253,292,l),
+(676,292,l),
+(676,458,l),
+(253,458,l)
+);
+},
+{
+alignment = -1;
+pos = (772,0);
+ref = C;
+scale = (-1,1);
+}
+);
+width = 766;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(237,353,l),
+(676,353,l),
+(676,401,l),
+(237,401,l)
+);
+},
+{
+alignment = -1;
+pos = (788,0);
+ref = C;
+scale = (-1,1);
+}
+);
+width = 788;
+}
+);
+unicode = 1069;
+}

@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = IJ;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = I;
+},
+{
+pos = (252,0);
+ref = J;
+}
+);
+width = 857;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = I;
+},
+{
+pos = (167,0);
+ref = J;
+}
+);
+width = 721;
+}
+);
+unicode = 306;
+}

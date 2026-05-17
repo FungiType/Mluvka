@@ -1,0 +1,71 @@
+{
+export = 0;
+glyphname = Ocyr;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (438,0);
+},
+{
+name = center;
+pos = (438,373);
+},
+{
+name = ogonek;
+pos = (488,0);
+},
+{
+name = top;
+pos = (438,745);
+},
+{
+name = topright;
+pos = (856,745);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = O;
+}
+);
+width = 876;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (442,0);
+},
+{
+name = center;
+pos = (442,373);
+},
+{
+name = ogonek;
+pos = (492,0);
+},
+{
+name = top;
+pos = (442,745);
+},
+{
+name = topright;
+pos = (864,745);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = O;
+}
+);
+width = 884;
+}
+);
+unicode = 1054;
+}

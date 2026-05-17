@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Font Specimen: Mluvka</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        :root { color-scheme: light; }
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Mluvka', sans-serif;
+            margin: 40px auto;
+            max-width: 1120px;
+            color: #1a1a1a;
+            padding: 0 24px 72px;
+            line-height: 1.5;
+            background: #fff;
+        }
+        h1 {
+            font-size: clamp(2rem, 6vw, 4.75rem);
+            margin: 0 0 18px;
+            line-height: 1;
+            letter-spacing: -0.035em;
+            max-width: 100%;
+            overflow-wrap: anywhere;
+        }
+        .meta { color: #666; margin-bottom: 44px; }
+        .sample-area { margin-bottom: 32px; }
+        .editable {
+            font-family: 'Mluvka', sans-serif;
+            transition: font-variation-settings 80ms linear, font-weight 80ms linear, font-stretch 80ms linear;
+            outline: none;
+        }
+        .editable:focus { box-shadow: 0 0 0 3px rgba(0,0,0,.08); border-radius: 8px; }
+        .sample {
+            font-size: clamp(2.4rem, 8vw, 6.25rem);
+            line-height: .95;
+            margin-bottom: 40px;
+            word-break: break-word;
+            overflow-wrap: anywhere;
+            letter-spacing: -0.04em;
+        }
+        .text { font-size: clamp(1.35rem, 3vw, 2.35rem); max-width: 900px; margin-bottom: 36px; }
+        .alphabet { font-size: clamp(1.1rem, 2vw, 1.45rem); letter-spacing: .02em; }
+        .controls-panel {
+            margin-top: 48px;
+            padding: 22px;
+            background: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 14px;
+        }
+        .controls-header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 18px;
+        }
+        .controls-header h2 { margin: 0; font-size: 1.15rem; }
+        .controls-header p { margin: 0; color: #666; font-size: .92rem; }
+        .controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px 24px; }
+        .control { display: grid; grid-template-columns: 1fr auto; gap: 8px 14px; align-items: center; }
+        .control-label { min-width: 0; }
+        .control-label code { margin-left: 6px; }
+        .control-value { font-variant-numeric: tabular-nums; color: #555; }
+        .control input { grid-column: 1 / -1; width: 100%; margin: 0; }
+        code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+        .css-block { margin-top: 22px; }
+        .css-block h2 { font-size: 1.15rem; margin: 0 0 10px; }
+        pre { background: #111; color: #f7f7f7; padding: 16px; border-radius: 10px; overflow: auto; font-size: .85rem; }
+        .font-info-footer { margin-top: 64px; padding-top: 20px; border-top: 2px solid #eaeaea; font-size: .9rem; color: #555; }
+        .font-info-footer strong { color: #1a1a1a; }
+    </style>
+</head>
+<body>
+    <h1>Mluvka</h1>
+    <div class="meta">
+        <strong>Variable font specimen</strong><br>
+        Designer: Jiří Krblich · Foundry: Fungi Type · Version: 3.000
+    </div>
+
+    <main class="sample-area">
+        <div class="sample editable" contenteditable="true" spellcheck="false">Hamburgefonts<br>Variable</div>
+        <div class="text editable" contenteditable="true" spellcheck="false">
+            The quick brown fox jumps over the lazy dog. Příliš žluťoučký kůň úpěl ďábelské ódy.
+        </div>
+        <div class="alphabet editable" contenteditable="true" spellcheck="false">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+            abcdefghijklmnopqrstuvwxyz<br>
+            0123456789 .,:;!?&@%+-=
+        </div>
+    </main>
+
+    <section class="controls-panel" aria-label="Variable font controls">
+        <div class="controls-header">
+            <h2>Variable axes</h2>
+            <p>Sliders control the specimen above.</p>
+        </div>
+        <div class="controls">
+            
+            <label class="control" for="axis-wght">
+                <span class="control-label"><strong>Weight</strong> <code>wght</code></span>
+                <span class="control-value"><output id="out-wght">200</output></span>
+                <input id="axis-wght" type="range" min="200" max="800" value="200" step="1" data-axis="wght" data-output="out-wght">
+            </label>
+
+        </div>
+
+        <div class="css-block">
+            <h2>Current CSS</h2>
+            <pre id="css-output"></pre>
+        </div>
+    </section>
+
+    <div class="font-info-footer">
+        <strong>CSS file:</strong> stylesheet.css<br>
+        <strong>Font file:</strong> Mluvka-variable-web.woff2
+    </div>
+
+    <script>
+        const axes = [{"tag": "wght", "name": "Weight", "min": "200", "max": "800", "defaultValue": "200"}];
+        const familyName = "Mluvka";
+        const inputs = Array.from(document.querySelectorAll('input[data-axis]'));
+        const targets = Array.from(document.querySelectorAll('.editable'));
+        const cssOutput = document.getElementById('css-output');
+
+        function collectValues() {
+            const values = {};
+            axes.forEach(axis => values[axis.tag] = axis.defaultValue);
+            inputs.forEach(input => values[input.dataset.axis] = input.value);
+            return values;
+        }
+
+        function makeVariationSettings(values) {
+            return axes
+                .map(axis => "'" + axis.tag + "' " + values[axis.tag])
+                .join(', ');
+        }
+
+        function updateOutputs() {
+            inputs.forEach(input => {
+                const out = document.getElementById(input.dataset.output);
+                if (out) out.textContent = input.value;
+            });
+        }
+
+        function updateSpecimen() {
+            const values = collectValues();
+            const variationSettings = makeVariationSettings(values);
+            updateOutputs();
+
+            targets.forEach(target => {
+                target.style.fontVariationSettings = variationSettings;
+                if (values.wght !== undefined) target.style.fontWeight = values.wght;
+                if (values.wdth !== undefined) target.style.fontStretch = values.wdth + '%';
+
+                if (values.ital !== undefined && Number(values.ital) >= 0.5) {
+                    target.style.fontStyle = 'italic';
+                } else if (values.slnt !== undefined) {
+                    target.style.fontStyle = 'oblique ' + values.slnt + 'deg';
+                } else {
+                    target.style.fontStyle = 'normal';
+                }
+            });
+
+            const cssLines = [
+                "font-family: '" + familyName + "', sans-serif;",
+                values.wght !== undefined ? 'font-weight: ' + values.wght + ';' : '',
+                values.wdth !== undefined ? 'font-stretch: ' + values.wdth + '%;' : '',
+                values.slnt !== undefined ? 'font-style: oblique ' + values.slnt + 'deg;' : '',
+                values.ital !== undefined && Number(values.ital) >= 0.5 ? 'font-style: italic;' : '',
+                'font-variation-settings: ' + variationSettings + ';'
+            ].filter(Boolean);
+
+            cssOutput.textContent = cssLines.join(String.fromCharCode(10));
+        }
+
+        inputs.forEach(input => input.addEventListener('input', updateSpecimen));
+        updateSpecimen();
+    </script>
+</body>
+</html>

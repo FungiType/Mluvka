@@ -1,0 +1,38 @@
+{
+glyphname = ddotbelow;
+kernLeft = o;
+kernRight = d;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+alignment = -1;
+pos = (112,0);
+ref = dotbelowcomb;
+}
+);
+width = 649;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+alignment = -1;
+pos = (159,0);
+ref = dotbelowcomb;
+}
+);
+width = 674;
+}
+);
+unicode = 7693;
+}

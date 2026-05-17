@@ -1,0 +1,45 @@
+{
+export = 0;
+glyphname = obarcyr;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(191,216,l),
+(456,216,l),
+(456,337,l),
+(191,337,l)
+);
+},
+{
+alignment = -1;
+ref = o;
+}
+);
+width = 647;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(104,243,l),
+(559,243,l),
+(559,283,l),
+(104,283,l)
+);
+},
+{
+alignment = -1;
+ref = o;
+}
+);
+width = 662;
+}
+);
+unicode = 1257;
+}

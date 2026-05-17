@@ -1,0 +1,38 @@
+{
+glyphname = Tbar;
+kernLeft = T;
+kernRight = T;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = T;
+},
+{
+alignment = -1;
+pos = (14,20);
+ref = strokeshortcomb.case;
+}
+);
+width = 566;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = T;
+},
+{
+alignment = -1;
+pos = (31,20);
+ref = strokeshortcomb.case;
+}
+);
+width = 514;
+}
+);
+unicode = 358;
+}

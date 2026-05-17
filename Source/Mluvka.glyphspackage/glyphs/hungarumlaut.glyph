@@ -1,0 +1,44 @@
+{
+glyphname = hungarumlaut;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = hungarumlautcomb;
+}
+);
+width = 593;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "0691868D-BD18-4FD5-95A3-4DF46CDC0A30";
+name = Italic;
+width = 489;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "739D9AE4-F90F-446F-84AA-98E0F41E72B6";
+name = "Extralight Italic";
+width = 451;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "CCEF1F77-C34E-4840-9016-F5EBB382262B";
+name = "Black Italic";
+width = 557;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = hungarumlautcomb;
+}
+);
+width = 453;
+}
+);
+unicode = 733;
+}

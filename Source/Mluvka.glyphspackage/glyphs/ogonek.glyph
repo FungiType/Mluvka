@@ -1,0 +1,44 @@
+{
+glyphname = ogonek;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = ogonekcomb;
+}
+);
+width = 381;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "7AD2E6EA-8259-405A-8D1B-D366E605DA39";
+name = Italic;
+width = 373;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "40ABD2EE-3850-4FE3-A096-F52018D45716";
+name = "Extralight Italic";
+width = 373;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "4037BF4E-892F-4B9E-850D-1283C0CF7287";
+name = "Black Italic";
+width = 370;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = ogonekcomb;
+}
+);
+width = 382;
+}
+);
+unicode = 731;
+}

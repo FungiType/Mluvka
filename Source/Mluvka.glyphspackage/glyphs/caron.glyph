@@ -1,0 +1,44 @@
+{
+glyphname = caron;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = caroncomb;
+}
+);
+width = 592;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "AE0DD217-8872-40AB-ADB1-455FB9DEAC4A";
+name = Italic;
+width = 480;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "2E0EF673-DC5D-4D18-B5C8-2F0E4123C083";
+name = "Extralight Italic";
+width = 474;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "30E80125-BCBD-43A6-BE2A-19DD2AF21993";
+name = "Black Italic";
+width = 561;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = caroncomb;
+}
+);
+width = 474;
+}
+);
+unicode = 711;
+}

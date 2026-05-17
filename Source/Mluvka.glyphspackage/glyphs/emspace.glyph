@@ -1,0 +1,32 @@
+{
+glyphname = emspace;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+width = 1000;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "A882516D-2AC5-4743-B7AE-B9B0CCF7599C";
+name = Italic;
+width = 1000;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "98BF49FC-FAA0-4D63-AFC9-4EDBEBD27753";
+name = "Extralight Italic";
+width = 1000;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "E5F9E02A-C60E-4AD0-94EA-EFE7D772E348";
+name = "Black Italic";
+width = 1000;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+width = 1000;
+}
+);
+unicode = 8195;
+}

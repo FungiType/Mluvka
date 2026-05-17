@@ -1,0 +1,34 @@
+{
+glyphname = upBlackTriangle;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(825,0,l),
+(450,757,l),
+(75,0,l)
+);
+}
+);
+width = 900;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(788,0,l),
+(413,757,l),
+(38,0,l)
+);
+}
+);
+width = 826;
+}
+);
+unicode = 9650;
+}

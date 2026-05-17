@@ -1,0 +1,44 @@
+{
+glyphname = dieresis;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = dieresiscomb;
+}
+);
+width = 627;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "FB488A83-435B-4016-972F-9877B44CB674";
+name = Italic;
+width = 439;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "4244B9A2-6F75-4F25-8499-2FC54DEBE9C6";
+name = "Extralight Italic";
+width = 399;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "9D0350A1-C585-4B06-8884-5406BB950DFF";
+name = "Black Italic";
+width = 572;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = dieresiscomb;
+}
+);
+width = 398;
+}
+);
+unicode = 168;
+}

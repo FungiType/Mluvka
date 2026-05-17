@@ -1,0 +1,44 @@
+{
+glyphname = grave;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = gravecomb;
+}
+);
+width = 412;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "37648D54-032B-4A3C-8CE3-ED9B5AC5626B";
+name = Italic;
+width = 352;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "2B6CCB4C-3DB2-4F97-9A2D-02F48DA4731B";
+name = "Extralight Italic";
+width = 332;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "5515C29C-8328-4C10-913D-02A6B78529F8";
+name = "Black Italic";
+width = 390;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = gravecomb;
+}
+);
+width = 330;
+}
+);
+unicode = 96;
+}

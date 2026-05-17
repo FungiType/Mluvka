@@ -1,0 +1,57 @@
+{
+export = 0;
+glyphname = iocyr;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (303,0);
+},
+{
+name = ogonek;
+pos = (314,0);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = iecyr;
+},
+{
+alignment = -1;
+pos = (-13,0);
+ref = dieresiscomb;
+}
+);
+width = 605;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (314,0);
+},
+{
+name = ogonek;
+pos = (331,0);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = iecyr;
+},
+{
+alignment = -1;
+pos = (101,0);
+ref = dieresiscomb;
+}
+);
+width = 627;
+}
+);
+unicode = 1105;
+}

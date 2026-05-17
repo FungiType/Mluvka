@@ -1,0 +1,12 @@
+/* Automatically generated font-face rules */
+
+/* Variable axes:
+   wght: 200–800, default 200 (Weight)
+*/
+@font-face {
+    font-family: 'Mluvka';
+    src: url('Mluvka-variable-web.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 200 800;
+}
+

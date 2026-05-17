@@ -1,0 +1,44 @@
+{
+glyphname = cedilla;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = cedillacomb;
+}
+);
+width = 381;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "4D1C79DB-0DE3-41B9-BE72-5B8049308D1F";
+name = Italic;
+width = 372;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "30F38D13-B3C2-4ECA-8892-CF6CA1E9E6E3";
+name = "Extralight Italic";
+width = 373;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "B8272400-5DCD-46C1-8564-3E846ECB674C";
+name = "Black Italic";
+width = 370;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = cedillacomb;
+}
+);
+width = 382;
+}
+);
+unicode = 184;
+}

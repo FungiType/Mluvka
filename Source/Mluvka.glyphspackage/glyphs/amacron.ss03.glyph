@@ -1,0 +1,38 @@
+{
+export = 0;
+glyphname = amacron.ss03;
+kernLeft = a;
+kernRight = a;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = a.ss03;
+},
+{
+alignment = -1;
+pos = (-7,0);
+ref = macroncomb;
+}
+);
+width = 586;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = a.ss03;
+},
+{
+alignment = -1;
+pos = (59,0);
+ref = macroncomb;
+}
+);
+width = 574;
+}
+);
+}

@@ -1,0 +1,55 @@
+{
+export = 0;
+glyphname = Acyr;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (382,0);
+},
+{
+name = ogonek;
+pos = (652,0);
+},
+{
+name = top;
+pos = (382,745);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = A;
+}
+);
+width = 763;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (322,0);
+},
+{
+name = ogonek;
+pos = (595,0);
+},
+{
+name = top;
+pos = (322,745);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = A;
+}
+);
+width = 644;
+}
+);
+unicode = 1040;
+}

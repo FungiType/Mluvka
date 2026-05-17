@@ -1,0 +1,55 @@
+{
+export = 0;
+glyphname = Ushortcyr;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = Ucyr;
+},
+{
+alignment = -1;
+pos = (-11,204);
+ref = brevecomb;
+}
+);
+width = 687;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (217,0);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (-559,0);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = Ucyr;
+},
+{
+alignment = -1;
+pos = (64,219);
+ref = brevecomb;
+}
+);
+width = 608;
+}
+);
+unicode = 1038;
+}

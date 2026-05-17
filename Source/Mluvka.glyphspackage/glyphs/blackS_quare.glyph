@@ -1,0 +1,36 @@
+{
+glyphname = blackSquare;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(893,0,l),
+(893,745,l),
+(148,745,l),
+(148,0,l)
+);
+}
+);
+width = 1041;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(855,0,l),
+(855,745,l),
+(110,745,l),
+(110,0,l)
+);
+}
+);
+width = 965;
+}
+);
+unicode = 9632;
+}

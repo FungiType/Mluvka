@@ -1,0 +1,38 @@
+{
+glyphname = hbar;
+kernLeft = h;
+kernRight = n;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = h;
+},
+{
+alignment = -1;
+pos = (-99,375);
+ref = strokeshortcomb;
+}
+);
+width = 609;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = h;
+},
+{
+alignment = -1;
+pos = (-98,383);
+ref = strokeshortcomb;
+}
+);
+width = 570;
+}
+);
+unicode = 295;
+}

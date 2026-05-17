@@ -1,0 +1,36 @@
+{
+glyphname = minusinferior;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(443,203,l),
+(443,318,l),
+(128,318,l),
+(128,203,l)
+);
+}
+);
+width = 571;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(388,240,l),
+(388,281,l),
+(73,281,l),
+(73,240,l)
+);
+}
+);
+width = 461;
+}
+);
+unicode = 8331;
+}

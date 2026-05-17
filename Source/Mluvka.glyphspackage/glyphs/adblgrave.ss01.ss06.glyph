@@ -1,0 +1,38 @@
+{
+glyphname = adblgrave.ss01.ss06;
+kernLeft = a;
+kernRight = a;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+pos = (42,0);
+ref = a.ss01.ss06;
+},
+{
+alignment = -1;
+pos = (-110,0);
+ref = dblgravecomb;
+}
+);
+width = 691;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = a.ss01.ss06;
+},
+{
+alignment = -1;
+pos = (2,0);
+ref = dblgravecomb;
+}
+);
+width = 617;
+}
+);
+}

@@ -1,0 +1,91 @@
+{
+glyphname = kcommaaccent.ss03;
+kernLeft = h;
+kernRight = k;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (302,0);
+},
+{
+name = top;
+pos = (137,745);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(609,0,l),
+(405,277,l),
+(582,553,l),
+(362,553,l),
+(206,308,l),
+(199,245,l),
+(384,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(231,0,l),
+(231,757,l),
+(44,757,l),
+(44,0,l)
+);
+},
+{
+alignment = -1;
+pos = (44,0);
+ref = commaaccentcomb;
+}
+);
+width = 604;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (248,0);
+},
+{
+name = top;
+pos = (111,745);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(468,0,l),
+(172,264,l),
+(450,526,l),
+(381,526,l),
+(115,274,l),
+(113,253,l),
+(397,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(133,0,l),
+(133,757,l),
+(93,757,l),
+(93,0,l)
+);
+},
+{
+alignment = -1;
+pos = (79,0);
+ref = commaaccentcomb;
+}
+);
+width = 468;
+}
+);
+}

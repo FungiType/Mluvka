@@ -1,0 +1,38 @@
+{
+glyphname = idieresis;
+kernLeft = idieresis;
+kernRight = idieresis;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = idotless;
+},
+{
+alignment = -1;
+pos = (-223,0);
+ref = dieresiscomb;
+}
+);
+width = 257;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = idotless;
+},
+{
+alignment = -1;
+pos = (-121,0);
+ref = dieresiscomb;
+}
+);
+width = 185;
+}
+);
+unicode = 239;
+}

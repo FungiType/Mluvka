@@ -1,0 +1,38 @@
+{
+glyphname = jcircumflex;
+kernLeft = i;
+kernRight = j;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = jdotless;
+},
+{
+alignment = -1;
+pos = (-226,0);
+ref = circumflexcomb;
+}
+);
+width = 274;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = jdotless;
+},
+{
+alignment = -1;
+pos = (-139,0);
+ref = circumflexcomb;
+}
+);
+width = 221;
+}
+);
+unicode = 309;
+}

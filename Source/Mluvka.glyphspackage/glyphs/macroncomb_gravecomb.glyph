@@ -1,0 +1,179 @@
+{
+glyphname = macroncomb_gravecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (333,553);
+}
+);
+guides = (
+{
+angle = 270;
+pos = (333,619);
+},
+{
+pos = (413,624);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(425,822,l),
+(354,987,l),
+(124,987,l),
+(241,822,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(519,624,l),
+(519,772,l),
+(147,772,l),
+(147,624,l)
+);
+}
+);
+width = 658;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (277,520);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "44891BA6-0948-4070-99DC-E65DA4FAC7EC";
+name = Italic;
+shapes = (
+{
+closed = 1;
+nodes = (
+(432,650,l),
+(443,701,l),
+(188,701,l),
+(177,650,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(367,750,l),
+(308,865,l),
+(215,865,l),
+(301,750,l)
+);
+}
+);
+width = 435;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (267,515);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "23BB588F-04D8-4C67-AAE1-A8915F76D446";
+name = "Extralight Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(415,657,l),
+(422,688,l),
+(186,688,l),
+(179,657,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(340,756,l),
+(272,865,l),
+(222,865,l),
+(302,756,l)
+);
+}
+);
+width = 423;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (303,540);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "D8A679FF-812C-4635-BE7C-45D9B6A62D68";
+name = "Black Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(487,640,l),
+(513,760,l),
+(189,760,l),
+(163,640,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(447,828,l),
+(423,978,l),
+(210,978,l),
+(280,828,l)
+);
+}
+);
+width = 469;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (233,526);
+}
+);
+guides = (
+{
+angle = 270;
+pos = (233,608);
+},
+{
+pos = (214,640);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,770,l),
+(179,913,l),
+(115,913,l),
+(215,770,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(358,640,l),
+(358,680,l),
+(108,680,l),
+(108,640,l)
+);
+}
+);
+width = 461;
+}
+);
+}

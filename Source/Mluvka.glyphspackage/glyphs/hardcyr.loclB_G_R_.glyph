@@ -1,0 +1,46 @@
+{
+export = 0;
+glyphname = hardcyr.loclBGR;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(285,392,l),
+(7,392,l),
+(7,553,l),
+(285,553,l)
+);
+},
+{
+alignment = -1;
+pos = (56,0);
+ref = softcyr.loclBGR;
+}
+);
+width = 666;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,486,l),
+(22,486,l),
+(22,526,l),
+(187,526,l)
+);
+},
+{
+alignment = -1;
+pos = (65,0);
+ref = softcyr.loclBGR;
+}
+);
+width = 578;
+}
+);
+}

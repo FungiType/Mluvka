@@ -1,0 +1,44 @@
+{
+glyphname = Idotbelow;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+guides = (
+{
+angle = 270;
+pos = (151,745);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = I;
+},
+{
+alignment = -1;
+pos = (-77,0);
+ref = dotbelowcomb;
+}
+);
+width = 301;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = I;
+},
+{
+alignment = -1;
+pos = (-14,0);
+ref = dotbelowcomb;
+}
+);
+width = 248;
+}
+);
+unicode = 7882;
+}

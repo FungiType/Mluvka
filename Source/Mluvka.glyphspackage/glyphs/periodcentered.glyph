@@ -1,0 +1,26 @@
+{
+glyphname = periodcentered;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+pos = (61,186);
+ref = period;
+}
+);
+width = 412;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+pos = (20,232);
+ref = period;
+}
+);
+width = 195;
+}
+);
+unicode = 183;
+}

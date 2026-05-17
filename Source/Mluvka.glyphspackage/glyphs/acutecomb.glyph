@@ -1,0 +1,174 @@
+{
+color = 4;
+glyphname = acutecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (231,553);
+}
+);
+guides = (
+{
+pos = (314,598);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+closed = 1;
+nodes = (
+(314,598,l),
+(431,763,l),
+(201,763,l),
+(130,598,l)
+);
+}
+);
+width = 564;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (174,520);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "2F972798-9975-4E98-B5F7-2B2AD5BF2BD0";
+name = Italic;
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,580,l),
+(366,730,l),
+(273,730,l),
+(154,580,l)
+);
+}
+);
+width = 352;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (166,515);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "8B7C0318-4182-485D-93F8-E9CDFBE34C3F";
+name = "Extralight Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(202,593,l),
+(340,740,l),
+(289,740,l),
+(164,593,l)
+);
+}
+);
+width = 330;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (202,540);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "C73E15C7-C06C-46B5-8F36-A79D32373B5B";
+name = "Black Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(297,600,l),
+(441,784,l),
+(228,784,l),
+(130,600,l)
+);
+}
+);
+width = 392;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (126,526);
+}
+);
+guides = (
+{
+pos = (242,621);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,621,l),
+(236,764,l),
+(172,764,l),
+(95,621,l)
+);
+}
+);
+width = 359;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (126,526);
+}
+);
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "18D8E423-EAD4-4534-A169-7742D9872DF2";
+name = "13. 3. 26 at 7:07 PM";
+shapes = (
+{
+closed = 1;
+nodes = (
+(148,640,l),
+(256,790,l),
+(195,790,l),
+(103,640,l)
+);
+}
+);
+width = 359;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (231,553);
+}
+);
+associatedMasterId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+layerId = "3DAC3E91-D89D-432E-89DD-FC181526446B";
+name = "13. 3. 26 at 7:07 PM";
+shapes = (
+{
+closed = 1;
+nodes = (
+(323,640,l),
+(425,831,l),
+(186,831,l),
+(139,640,l)
+);
+}
+);
+width = 564;
+}
+);
+unicode = 769;
+}

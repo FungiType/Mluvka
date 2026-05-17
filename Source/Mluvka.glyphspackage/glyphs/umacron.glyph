@@ -1,0 +1,38 @@
+{
+glyphname = umacron;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = u;
+},
+{
+alignment = -1;
+pos = (-20,0);
+ref = macroncomb;
+}
+);
+width = 609;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = u;
+},
+{
+alignment = -1;
+pos = (57,0);
+ref = macroncomb;
+}
+);
+width = 570;
+}
+);
+unicode = 363;
+}

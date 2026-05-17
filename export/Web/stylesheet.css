@@ -1,0 +1,66 @@
+/* Automatically generated font-face rules */
+
+@font-face {
+    font-family: 'Mluvka';
+    src: url('Mluvka-Bold-web.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mluvka';
+    src: url('Mluvka-Book-web.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mluvka';
+    src: url('Mluvka-ExtraBold-web.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mluvka';
+    src: url('Mluvka-ExtraLight-web.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mluvka';
+    src: url('Mluvka-Light-web.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mluvka';
+    src: url('Mluvka-Medium-web.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mluvka';
+    src: url('Mluvka-Regular-web.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mluvka';
+    src: url('Mluvka-SemiBold-web.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

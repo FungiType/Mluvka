@@ -1,0 +1,44 @@
+{
+glyphname = tilde;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = tildecomb;
+}
+);
+width = 568;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "32185176-6297-4F72-91CD-5DBE8AFDBBCD";
+name = Italic;
+width = 480;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "48D26356-26BF-4326-9850-2B8E9D1CFDCB";
+name = "Extralight Italic";
+width = 463;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "069C734D-7F6E-42E0-9EE5-6FC304442D7B";
+name = "Black Italic";
+width = 540;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = tildecomb;
+}
+);
+width = 462;
+}
+);
+unicode = 732;
+}

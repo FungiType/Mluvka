@@ -1,0 +1,47 @@
+{
+export = 0;
+glyphname = Vecyr;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (344,0);
+},
+{
+name = top;
+pos = (344,745);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = B;
+}
+);
+width = 689;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (348,0);
+},
+{
+name = top;
+pos = (348,745);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = B;
+}
+);
+width = 695;
+}
+);
+unicode = 1042;
+}

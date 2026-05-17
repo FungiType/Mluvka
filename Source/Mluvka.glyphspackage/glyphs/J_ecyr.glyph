@@ -1,0 +1,35 @@
+{
+export = 0;
+glyphname = Jecyr;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (212,0);
+},
+{
+name = top;
+pos = (256,745);
+}
+);
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+width = 402;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (202,0);
+},
+{
+name = top;
+pos = (257,745);
+}
+);
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+width = 381;
+}
+);
+unicode = 1032;
+}

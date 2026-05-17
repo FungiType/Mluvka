@@ -1,0 +1,32 @@
+{
+glyphname = hairspace;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+width = 42;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "64A21C9A-EB3B-4AEA-B3F7-7E0E1480F321";
+name = Italic;
+width = 42;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "B650707E-96C3-4030-8567-2CA2E4D2818A";
+name = "Extralight Italic";
+width = 42;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "AFBDB287-19AB-46E4-8DF4-8AE7A86EA0F9";
+name = "Black Italic";
+width = 42;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+width = 42;
+}
+);
+unicode = 8202;
+}

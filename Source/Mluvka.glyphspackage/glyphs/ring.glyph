@@ -1,0 +1,44 @@
+{
+glyphname = ring;
+layers = (
+{
+layerId = "2214928F-C3F1-4984-8760-804A8E1D1290";
+shapes = (
+{
+alignment = -1;
+ref = ringcomb;
+}
+);
+width = 385;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "CD66093B-D711-4A15-90B4-8C9545118A57";
+name = Italic;
+width = 387;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "59DB6DD4-0279-4F74-AEF8-EEF783B65BB0";
+name = "Extralight Italic";
+width = 366;
+},
+{
+associatedMasterId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+layerId = "64FD20EF-29E2-4244-9CFD-90D9C1E4D7AF";
+name = "Black Italic";
+width = 381;
+},
+{
+layerId = "E3EA525A-B39D-4443-89AA-60545A42CAFC";
+shapes = (
+{
+alignment = -1;
+ref = ringcomb;
+}
+);
+width = 365;
+}
+);
+unicode = 730;
+}
