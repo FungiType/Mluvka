@@ -2,6 +2,14 @@
 
 @font-face {
     font-family: 'Mluvka';
+    src: url('Mluvka-Black-web.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mluvka';
     src: url('Mluvka-Bold-web.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;

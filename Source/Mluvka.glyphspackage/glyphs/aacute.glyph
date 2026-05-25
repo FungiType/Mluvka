@@ -28,7 +28,7 @@ ref = a;
 },
 {
 alignment = -1;
-pos = (167,0);
+pos = (149,0);
 ref = acutecomb;
 }
 );
